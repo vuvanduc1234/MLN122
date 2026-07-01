@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+/* Custom utility styles for 3D Card Flip */
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.transform-style-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+/* Animations and custom animations */
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-6px); }
+  75% { transform: translateX(6px); }
+}
+
+.animate-shake {
+  animation: shake 0.3s ease-in-out;
+}
+
+@keyframes glow {
+  0%, 100% { box-shadow: 0 0 15px rgba(234, 179, 8, 0.4); }
+  50% { box-shadow: 0 0 25px rgba(234, 179, 8, 0.8); }
+}
+
+.animate-lucky-glow {
+  animation: glow 2s infinite ease-in-out;
+}
+
+body {
+  background-color: #ffffff;
+  background-image: linear-gradient(rgba(99, 102, 241, 0.06) 1.5px, transparent 1.5px);
+  background-size: 100% 32px;
+}

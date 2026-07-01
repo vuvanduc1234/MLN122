@@ -1,0 +1,314 @@
+[
+  {
+    "id": 1,
+    "question": "Trong giai đoạn chủ nghĩa tư bản độc quyền hiện đại, sự dung hợp giữa tư bản ngân hàng và tư bản công nghiệp đã có sự thay đổi như thế nào?",
+    "options": [
+      "A. Diễn ra sự thâm nhập đa chiều.",
+      "B. Chỉ diễn ra sự xâm nhập một chiều từ phía các tổ tích dụng vào cấu trúc nội bộ của ngành sản xuất.",
+      "C. Tư bản ngân hàng hoàn toàn bị thôn tính và trở thành công cụ phục vụ riêng cho các tập đoàn công nghiệp lớn.",
+      "D. Hai khối tư bản này thiết lập ranh giới tách rời tuyệt đối nhằm hạn chế tối đa mọi rủi ro tài chính."
+    ],
+    "answer": 0,
+    "explanation": "Trong giai đoạn hiện đại, sự dung hợp không còn một chiều mà diễn ra sự kết hợp đa chiều, thâm nhập lẫn nhau giữa hai khối công nghiệp và tài chính.",
+    "isLucky": false
+  },
+  {
+    "id": 2,
+    "question": "Cơ chế 'cổ phiếu khống chế' trong biểu hiện mới của tư bản tài chính ngày nay được hiểu là gì?",
+    "options": [
+      "A. Việc bắt buộc phải sở hữu toàn bộ 100% tổng số vốn điều lệ thực tế của một doanh nghiệp trên thị trường.",
+      "B. Chỉ cần nắm tỷ lệ cổ phần vừa đủ để chi phối hội đồng quản trị mà không cần sở hữu toàn bộ doanh nghiệp.",
+      "C. Việc cơ quan quản lý nhà nước ban hành sắc lệnh hành chính để tịch thu toàn bộ số cổ phần tư nhân.",
+      "D. Hình thức cưỡng ép các cổ đông nhỏ lẻ phải bán lại quyền bỏ phiếu."
+    ],
+    "answer": 1,
+    "explanation": "Nhờ tính chất phân tán cổ phần của công chúng, các tài phiệt chỉ cần nắm giữ một tỷ lệ cổ phần vừa đủ để chi phối mà không cần sở hữu toàn bộ doanh nghiệp.",
+    "isLucky": false
+  },
+  {
+    "id": 3,
+    "question": "Các quỹ đầu tư khổng lồ như BlackRock hay Vanguard nắm giữ cổ phần lớn ở cả Coca-Cola và Pepsi là biểu hiện của hiện tượng nào?",
+    "options": [
+      "A. Sự suy thoái không thể cứu vãn của toàn bộ mô hình kinh tế thị trường tự do cạnh tranh kiểu cổ điển.",
+      "B. Sở hữu chéo và chi phối đa tầng.",
+      "C. Sự can thiệp mang tính chất áp đặt hành chính trực tiếp của chính phủ Mỹ vào doanh nghiệp.",
+      "D. Xu hướng hoàn toàn từ bỏ mục tiêu tối đa hóa lợi nhuận để chuyển sang làm các công tác từ thiện xã hội."
+    ],
+    "answer": 1,
+    "explanation": "BlackRock hay Vanguard là các định chế tài chính toàn cầu khổng lồ thể hiện rõ rệt xu hướng sở hữu chéo và chi phối đa tầng nền kinh tế thế giới ngày nay.",
+    "isLucky": false
+  },
+  {
+    "id": 4,
+    "question": "Mạng lưới sở hữu chéo của các tập đoàn tài chính ngày nay dẫn đến hệ quả gì đối với nền kinh tế toàn cầu?",
+    "options": [
+      "A. Xóa bỏ hoàn toàn nguy cơ xảy ra các cuộc khủng hoảng kinh tế chu kỳ.",
+      "B. Làm mờ ranh giới cạnh tranh thực chất giữa các thương hiệu đối đầu lớn.",
+      "C. Giúp các doanh nghiệp quy mô nhỏ và vừa dễ dàng chiếm lĩnh thị phần từ tay các tập đoàn đa quốc gia.",
+      "D. Thu hẹp một cách tự động khoảng cách phân hóa giàu nghèo giữa các tầng lớp dân cư trong xã hội."
+    ],
+    "answer": 1,
+    "explanation": "Khi các đối thủ cạnh tranh lớn trên thị trường thực chất đều thuộc quyền sở hữu chung của một vài tập đoàn tài chính, ranh giới cạnh tranh thực chất giữa họ sẽ bị lu mờ.",
+    "isLucky": false
+  },
+  {
+    "id": 5,
+    "question": "Về mặt tổ chức, các đầu sỏ tài chính ngày nay chi phối nền kinh tế thông qua mô hình nào là chủ yếu?",
+    "options": [
+      "A. Các công ty gia đình có quy mô sản xuất vừa và nhỏ tại địa phương.",
+      "B. Các nghiệp đoàn độc quyền kiểu cũ dựa trên thỏa thuận phân chia thị trường tiêu thụ sản phẩm.",
+      "C. Tập đoàn độc quyền xuyên quốc gia với mạng lưới chi nhánh, công ty con chằng chịt khắp thế giới.",
+      "D. Các hợp tác xã kiểu mới do tập thể người lao động tự nguyện góp vốn."
+    ],
+    "answer": 2,
+    "explanation": "Các tập đoàn kinh tế và tài chính đa quốc gia/xuyên quốc gia đóng vai trò là chủ thể tổ chức chủ yếu để các đầu sỏ tài chính chi phối nền kinh tế toàn cầu.",
+    "isLucky": false
+  },
+  {
+    "id": 6,
+    "question": "Điểm khác biệt lớn nhất của 'chế độ tham dự' ngày nay so với thời kỳ của Lênin là gì?",
+    "options": [
+      "A. Tầng nấc kiểm soát phức tạp hơn.",
+      "B. Các tài phiệt tài chính đã hoàn toàn từ bỏ việc sử dụng công cụ cổ phiếu để thao túng doanh nghiệp.",
+      "C. Hệ thống này chỉ được phép vận hành trong phạm vi biên giới nội địa của một quốc gia phát triển nhất định.",
+      "D. Sự tham gia ngày càng sâu rộng mang tính quyết định của tầng lớp công nhân vào quá trình quản lý vốn."
+    ],
+    "answer": 0,
+    "explanation": "Chế độ tham dự ngày nay đã phát triển sang quy mô toàn cầu với các cấu trúc mẹ - con - cháu cực kỳ phức tạp và tinh vi hơn rất nhiều so với thời kỳ đầu thế kỷ 20.",
+    "isLucky": false
+  },
+  {
+    "id": 7,
+    "question": "Khái niệm 'tư bản tài chính' được hình thành từ sự hòa quyện của hai thành tố nào?",
+    "options": [
+      "A. Sự kết hợp giữa khối tư bản thương nghiệp thuần túy và khối tư bản cho vay trong nền kinh tế.",
+      "B. Tư bản ngân hàng và công nghiệp độc quyền.",
+      "C. Sự dung hợp giữa lực lượng tư bản nông nghiệp lạc hậu và tư bản công nghiệp hiện đại ở đô thị.",
+      "D. Sự phối hợp chiến lược giữa cơ quan tài chính nhà nước và các tổ chức tư nhân quốc tế."
+    ],
+    "answer": 1,
+    "explanation": "Tư bản tài chính là kết quả của sự hợp nhất giữa tư bản ngân hàng độc quyền và tư bản công nghiệp độc quyền.",
+    "isLucky": false
+  },
+  {
+    "id": 8,
+    "question": "Tại sao một quỹ tài chính chỉ cần sở hữu 5% - 15% cổ phần của một công ty S&P 500 là đã có thể nắm quyền chi phối?",
+    "options": [
+      "A. Vì luật pháp quốc tế quy định năm phần trăm là hạn mức sở hữu tối đa của một nhà đầu tư tổ chức.",
+      "B. Phần còn lại bị phân tán nhỏ lẻ trong công chúng khiến các cổ đông nhỏ không có tiếng nói tập trung.",
+      "C. Vì các cổ đông cá nhân nhỏ tuổi theo quy định sẽ không có quyền tham gia bỏ phiếu tại Đại hội đồng.",
+      "D. Vì các quỹ tài chính này luôn được chính phủ phê duyệt đặc quyền làm lãnh đạo tối cao tại doanh nghiệp."
+    ],
+    "answer": 1,
+    "explanation": "Do đại đa số cổ phần còn lại thuộc về hàng vạn cổ đông nhỏ lẻ phân tán khắp thế giới không đi bỏ phiếu, nên chỉ cần 5% - 15% là đủ để kiểm soát biểu quyết đại hội cổ đông.",
+    "isLucky": false
+  },
+  {
+    "id": 9,
+    "question": "Sự xuất hiện của các trung tâm tài chính toàn cầu (như Wall Street, London) chứng tỏ điều gì?",
+    "options": [
+      "A. Vai trò tạo ra giá trị của các ngành sản xuất công nghiệp truyền thống đã hoàn toàn biến mất khỏi xã hội.",
+      "B. Sự thống trị của tư bản tài chính ngày nay đối với toàn bộ huyết mạch kinh tế toàn cầu.",
+      "C. Sự bình đẳng tuyệt đối trong việc phân phối thành quả kinh tế giữa các quốc gia giàu và nghèo.",
+      "D. Các quốc gia đang phát triển đang dần nắm quyền kiểm soát dòng luân chuyển tiền tệ của thế giới."
+    ],
+    "answer": 1,
+    "explanation": "Các trung tâm tài chính lớn là nơi luân chuyển và điều phối dòng vốn toàn cầu, minh chứng cho sức mạnh thống trị của tư bản tài chính ngày nay đối với toàn bộ huyết mạch kinh tế toàn cầu.",
+    "isLucky": false
+  },
+  {
+    "id": 10,
+    "question": "Biểu hiện mới nào sau đây thuộc về sự biến đổi của độc quyền tư bản nhà nước?",
+    "options": [
+      "A. Nhà nước sở hữu và điều tiết vĩ mô.",
+      "B. Nhà nước tư sản hoàn toàn rút lui và đứng ngoài mọi hoạt động giám sát, điều tiết xu hướng kinh tế vĩ mô.",
+      "C. Nhà nước tiến hành quốc hữu hóa toàn bộ và giải tán tất cả các tập đoàn kinh tế tư nhân quy mô lớn.",
+      "D. Chính phủ chỉ tập trung ngân sách vào các hoạt động cứu trợ nhân đạo và tài trợ văn hóa phi lợi nhuận."
+    ],
+    "answer": 0,
+    "explanation": "Nhà nước tư bản ngày nay đóng vai trò chủ động sở hữu tư bản nhà nước và thực hiện các chính sách kinh tế vĩ mô để điều tiết nền kinh tế.",
+    "isLucky": false
+  },
+  {
+    "id": 11,
+    "question": "Cơ chế điều tiết kinh tế của chủ nghĩa tư bản độc quyền nhà nước là sự kết hợp giữa:",
+    "options": [
+      "A. Sự vận hành tự phát hoàn toàn của thị trường tự do cạnh tranh giữa các hộ sản xuất nhỏ lẻ độc lập.",
+      "B. Thị trường, độc quyền tư nhân và nhà nước.",
+      "C. Hệ thống mệnh lệnh hành chính tập trung quản lý tuyệt đối mọi nguồn lực từ chính phủ trung ương.",
+      "D. Các quy luật tôn giáo nghiêm ngặt kết hợp với lệ làng truyền thống của từng địa phương khác nhau."
+    ],
+    "answer": 1,
+    "explanation": "Cơ chế điều tiết kinh tế của CNTB độc quyền nhà nước là sự kết hợp giữa cơ chế thị trường, độc quyền tư nhân và sự can thiệp của nhà nước.",
+    "isLucky": false
+  },
+  {
+    "id": 12,
+    "question": "Bản chất của chủ nghĩa tư bản độc quyền nhà nước là gì?",
+    "options": [
+      "A. Sự thay đổi căn bản bản chất của chủ nghĩa tư bản nhằm mục đích tối thượng là bảo vệ quyền lợi người nghèo.",
+      "B. Sự kết hợp sức mạnh giữa các tổ chức độc quyền tư nhân và sức mạnh kinh tế, chính trị của bộ máy nhà nước tư sản.",
+      "C. Sự xóa bỏ hoàn toàn và triệt để quan hệ sản xuất tư bản chủ nghĩa trong cấu trúc nền kinh tế quốc gia.",
+      "D. Mô hình xã hội lý tưởng không còn tồn tại bất kỳ mâu thuẫn đối kháng nào giữa tư sản và vô sản."
+    ],
+    "answer": 1,
+    "explanation": "Bản chất của chủ nghĩa tư bản độc quyền nhà nước là sự kết hợp sức mạnh của độc quyền tư nhân với sức mạnh kinh tế, chính trị của bộ máy nhà nước.",
+    "isLucky": false
+  },
+  {
+    "id": 13,
+    "question": "\"Kinh tế thực\" trong lý thuyết kinh tế chính trị được hiểu là khu vực nào?",
+    "options": [
+      "A. Hệ thống thị trường chuyên mua bán các loại chứng khoán phái sinh phức tạp trên sàn giao dịch quốc tế.",
+      "B. Khu vực sản xuất hàng hóa, dịch vụ vật chất phục vụ trực tiếp cho nhu cầu tiêu dùng và phát triển xã hội.",
+      "C. Toàn bộ các hoạt động đầu cơ chênh lệch tỷ giá ngoại hối và tiền kỹ thuật số diễn ra trên internet.",
+      "D. Các loại hình kinh doanh trò chơi trực tuyến có thưởng và sòng bạc hợp pháp quy mô quốc tế."
+    ],
+    "answer": 1,
+    "explanation": "Kinh tế thực tập trung vào hoạt động sản xuất, chế tạo sản phẩm hữu hình và cung cấp dịch vụ trực tiếp phục vụ đời sống xã hội.",
+    "isLucky": false
+  },
+  {
+    "id": 14,
+    "question": "\"Kinh tế ảo\" phát triển dựa trên nền tảng của yếu tố nào sau đây?",
+    "options": [
+      "A. Sự vận động và luân chuyển vật chất thực tế của các loại hàng hóa cùng tư liệu sản xuất trong đời sống.",
+      "B. Thị trường tài chính và các công cụ phái sinh.",
+      "C. Các mô hình hoạt động nông nghiệp ứng dụng công nghệ sinh học cao tại các vùng nông thôn hẻo lánh.",
+      "D. Quy trình trao đổi trực tiếp hiện vật theo nhu cầu tiêu dùng giữa các hộ gia đình tự cung tự cấp."
+    ],
+    "answer": 1,
+    "explanation": "Kinh tế ảo phát sinh và phát triển dựa trên thị trường tài chính, chứng khoán và các sản phẩm phái sinh phức tạp.",
+    "isLucky": false
+  },
+  {
+    "id": 15,
+    "question": "Biểu hiện rõ rệt nhất của sự tách rời giữa kinh tế thực và kinh tế ảo là gì?",
+    "options": [
+      "A. Khối lượng và giá trị vốn giao dịch trên thị trường tài chính, chứng khoán vượt xa quy mô của nền kinh tế thực.",
+      "B. Giá cả của tất cả các loại hàng hóa lưu thông trên thị trường luôn trùng khớp tuyệt đối với giá trị thực.",
+      "C. Người tiêu dùng hoàn toàn không còn sử dụng các loại tiền mặt vật lý trong các giao dịch dân sự hằng ngày.",
+      "D. Các cơ sở nhà máy sản xuất công nghiệp nặng hoạt động độc lập mà không cần tới dòng vốn tín dụng từ ngân hàng."
+    ],
+    "answer": 0,
+    "explanation": "Giá trị giao dịch tài chính khổng lồ vượt xa quy mô thực tế của nền kinh tế thực chính là biểu hiện rõ rệt nhất của sự tách rời này.",
+    "isLucky": false
+  },
+  {
+    "id": 16,
+    "question": "Động lực chính khiến dòng vốn tài chính ngày nay đổ xô vào khu vực \"kinh tế ảo\" là gì?",
+    "options": [
+      "A. Khu vực này đóng vai trò tạo ra nhiều sản phẩm tiêu dùng hữu ích nhất cho đời sống con người.",
+      "B. Kiếm lời ngắn hạn nhanh, tỷ suất sinh lời cao.",
+      "C. Do các quy định pháp luật nghiêm ngặt ép buộc các tập đoàn lớn không được phép mở rộng sản xuất thực tế.",
+      "D. Mong muốn thúc đẩy viện trợ không hoàn lại giúp các quốc gia chậm phát triển xây dựng cơ sở hạ tầng."
+    ],
+    "answer": 1,
+    "explanation": "Sự thu hút vốn của kinh tế ảo bắt nguồn từ khả năng sinh lời ngắn hạn nhanh chóng và tỷ suất sinh lời cực kỳ cao so với sản xuất thực.",
+    "isLucky": false
+  },
+  {
+    "id": 17,
+    "question": "Công thức vận động của tư bản trong khu vực đầu cơ tài chính thuần túy là gì?",
+    "options": [
+      "A. H - T - H'",
+      "B. T - H - T'",
+      "C. T - T'",
+      "D. H - H'"
+    ],
+    "answer": 2,
+    "explanation": "Công thức T - T' biểu hiện sự tự nhân đôi của tiền mặt mà không cần thông qua sản xuất hay trao đổi hàng hóa.",
+    "isLucky": false
+  },
+  {
+    "id": 18,
+    "question": "Sự lấn át của lợi nhuận đầu cơ tài chính so với lợi nhuận sản xuất dẫn đến nguy cơ lớn nhất nào?",
+    "options": [
+      "A. Làm cho năng suất lao động của toàn bộ lực lượng công nhân trong xã hội tăng trưởng quá nhanh chóng.",
+      "B. Tạo bong bóng tài chính và khủng hoảng hệ thống nền kinh tế đe dọa sự ổn định toàn cầu.",
+      "C. Giúp cho sức mua thực tế của đồng tiền pháp định của quốc gia tăng lên một cách bền vững và ổn định.",
+      "D. Sự biến mất hoàn toàn mang tính tự phát của giai cấp tư sản thống trị trên phạm vi toàn cầu."
+    ],
+    "answer": 1,
+    "explanation": "Hiện tượng này thúc đẩy các bong bóng tài chính hình thành và đe dọa trực tiếp đến sự ổn định tài chính toàn cầu.",
+    "isLucky": false
+  },
+  {
+    "id": 19,
+    "question": "Tại sao lợi nhuận từ khu vực sản xuất (kinh tế thực) thường tăng trưởng chậm hơn khu vực tài chính ảo?",
+    "options": [
+      "A. Sản xuất bị giới hạn bởi chu kỳ kỹ thuật thực tế và năng suất lao động của con người lẫn máy móc.",
+      "B. Vì các chủ doanh nghiệp sản xuất không có mục đích tìm kiếm hay chiếm đoạt giá trị thặng dư của công nhân.",
+      "C. Vì các cơ quan chính phủ ban hành luật cấm tăng giá bán đối với tất cả các mặt hàng tiêu dùng thiết yếu.",
+      "D. Vì đội ngũ người lao động trực tiếp trong các nhà máy tự nguyện cống hiến mà không đòi hỏi nhận tiền lương."
+    ],
+    "answer": 0,
+    "explanation": "Sản xuất thực tế luôn bị giới hạn bởi các điều kiện chu kỳ kỹ thuật sản xuất và năng suất thực của lực lượng lao động.",
+    "isLucky": true
+  },
+  {
+    "id": 20,
+    "question": "Bản chất của các \"công cụ tài chính phái sinh\" trên thị trường kinh tế ảo là gì?",
+    "options": [
+      "A. Các loại nhu yếu phẩm và hàng hóa tiêu dùng thiết yếu phục vụ trực tiếp cho nhu cầu sinh hoạt của con người.",
+      "B. Sản phẩm tài chính neo theo tài sản cơ sở.",
+      "C. Các hệ thống máy móc, dây chuyền công nghệ hiện đại dùng để lắp ráp ô tô trong các nhà máy cơ khí.",
+      "D. Toàn bộ quỹ đất đai và nguồn tài nguyên khoáng sản quý hiếm chưa được con người khai thác trong lòng đất."
+    ],
+    "answer": 1,
+    "explanation": "Công cụ tài chính phái sinh là sản phẩm được xây dựng dựa trên (neo theo) giá trị của một tài sản cơ sở nào đó.",
+    "isLucky": true
+  },
+  {
+    "id": 21,
+    "question": "Mối quan hệ biện chứng giữa kinh tế thực và kinh tế ảo là gì?",
+    "options": [
+      "A. Nền kinh tế ảo vận hành hoàn toàn độc lập và không có bất kỳ mối liên hệ nào với khu vực sản xuất thực tế.",
+      "B. Kinh tế thực là nền tảng cốt lõi chi phối kinh tế ảo, nhưng sự phình to của kinh tế ảo có thể gây hệ lụy ngược lại.",
+      "C. Khu vực tài chính ảo xuất hiện trước lịch sử và đóng vai trò quyết định sự tồn tại của ngành sản xuất vật chất.",
+      "D. Hai khu vực kinh tế này luôn luôn có tốc độ tăng trưởng và quy mô vốn bằng nhau một cách tuyệt đối."
+    ],
+    "answer": 1,
+    "explanation": "Kinh tế thực là gốc, là nền tảng cốt lõi chi phối kinh tế ảo, nhưng kinh tế ảo phình to vượt mức có thể phá hoại nền tảng này.",
+    "isLucky": true
+  },
+  {
+    "id": 22,
+    "question": "Hiện tượng 'tư bản hóa' các tài sản (biến mọi quyền sở hữu thành chứng khoán để giao dịch) là biểu hiện của:",
+    "options": [
+      "A. Sự suy thoái mang tính tất yếu và sụp đổ hoàn toàn của nền văn minh kỹ thuật công nghệ nhân loại.",
+      "B. Sự phát triển đỉnh cao của tư bản tài chính độc quyền trong việc thương mại hóa các quyền tài sản.",
+      "C. Xuương quay trở lại hình thái nền kinh tế tự cung tự cấp thời kỳ phong kiến lạc hậu trước đây.",
+      "D. Các chính sách vĩ mô nhằm mục đích xóa bỏ hoàn toàn thị trường tiền tệ và tín dụng toàn cầu."
+    ],
+    "answer": 1,
+    "explanation": "Đây là biểu hiện của sự phát triển đỉnh cao từ phía các tổ chính tài chính độc quyền nhằm tối đa hóa việc giao dịch hóa các quyền tài sản.",
+    "isLucky": true
+  },
+  {
+    "id": 23,
+    "question": "Khi dòng vốn bị hút cạn vào các hoạt động đầu cơ tài chính ảo, khu vực sản xuất thực sẽ gặp khó khăn gì?",
+    "options": [
+      "A. Thiếu vốn đổi mới công nghệ và mở rộng sản xuất.",
+      "B. Tình trạng dư thừa quá mức nguồn nhân lực chất lượng cao có trình độ chuyên môn kỹ thuật tiên tiến.",
+      "C. Được hệ thống ngân hàng tài trợ toàn bộ chi phí mua sắm nguyên vật liệu đầu vào hoàn toàn miễn phí.",
+      "D. Doanh nghiệp sẽ không còn phải thực hiện nghĩa vụ đóng bất kỳ khoản thuế nào cho cơ quan ngân khố quốc gia."
+    ],
+    "answer": 0,
+    "explanation": "Khu vực kinh tế thực sẽ rơi vào tình trạng thiếu vốn đầu tư để nâng cấp công nghệ và mở rộng hoạt động.",
+    "isLucky": true
+  },
+  {
+    "id": 24,
+    "question": "Theo lý thuyết mác-xít, nguồn gốc cuối cùng của mọi lợi nhuận (kể cả lợi nhuận từ kinh tế ảo) bắt nguồn từ đâu?",
+    "options": [
+      "A. Từ sự may mắn thuần túy và tư duy nhạy bén của các nhà đầu tư cá nhân trên thị trường chứng khoán.",
+      "B. Giá trị thặng dư do người lao động trực tiếp làm ra trong quá trình sản xuất thực tế tại các nhà máy, xí nghiệp.",
+      "C. Từ các hệ thống thuật toán trí tuệ nhân tạo tự động tạo ra dòng tiền trên mạng lưới internet toàn cầu.",
+      "D. Do chính sách chủ động in thêm tiền giấy liên tục của hệ thống Ngân hàng Trung ương các nước phát triển."
+    ],
+    "answer": 1,
+    "explanation": "Theo học thuyết của Mác, nguồn gốc duy nhất của mọi lợi nhuận xã hội là giá trị thặng dư từ sức lao động trong sản xuất thực.",
+    "isLucky": true
+  }
+]
