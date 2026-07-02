@@ -12,14 +12,10 @@ import {
   Check,
   BookOpen,
   ChevronDown,
-  ChevronUp,
   Network,
   TrendingDown,
-  Landmark,
-  Globe,
   Factory,
   LineChart,
-  ArrowRightLeft,
   Zap,
   Brain,
   Building2,
@@ -31,6 +27,7 @@ import confetti from "canvas-confetti";
 import { Question, PrizeType, CardState } from "./types";
 import questionsDataRaw from "./data/questions.json";
 import MonopolyGame from "./components/MonopolyGame";
+import RequirementPage from "./components/RequirementPage";
 
 const questionsData = questionsDataRaw as Question[];
 
@@ -44,65 +41,7 @@ function shuffleArray<T>(array: T[]): T[] {
   return arr;
 }
 
-// Real-world political economy situations data
-const situationsData = [
-  {
-    id: 1,
-    title: "Mạng lưới sở hữu chéo của các quỹ tài chính (BlackRock & Vanguard)",
-    topic: "Tư bản tài chính & Sở hữu chéo",
-    description:
-      "Những quỹ đầu tư khổng lồ như BlackRock, Vanguard đồng thời sở hữu lượng lớn cổ phần tại nhiều tập đoàn lớn, qua đó theo đuổi mục tiêu tối đa hóa lợi nhuận cho cả danh mục đầu tư trên toàn thị trường, thay vì chỉ chăm lo hiệu quả của riêng một doanh nghiệp sản xuất.",
-    analysis:
-      "Theo lý thuyết Marxist hiện đại, đây là biểu hiện mới của Tư bản tài chính độc quyền. Bằng cách sử dụng cơ chế 'cổ phiếu khống chế' và chế độ sở hữu chéo, các đầu sỏ tài chính không cần sở hữu 100% doanh nghiệp vẫn có thể kiểm soát và chi phối toàn bộ các lĩnh vực sản xuất lớn của thế giới, thiết lập sự thống trị đa tầng lên hệ thống kinh tế.",
-    reflectionQuestion:
-      "Sở hữu chéo ảnh hưởng như thế nào đến người tiêu dùng và thị trường?",
-    reflectionAnswer:
-      "Hiện tượng này làm giảm động lực cạnh tranh thực chất về giá cả và chất lượng giữa các doanh nghiệp lớn. Họ có thể bắt tay ngầm để tối đa hóa lợi nhuận nhóm, tạo ra rào cản ngăn cản các doanh nghiệp vừa và nhỏ tham gia thị trường, gây thiệt hại trực tiếp cho người tiêu dùng và làm méo mó cơ chế thị trường tự do.",
-    color: "from-blue-500/20 to-indigo-500/20 border-indigo-500/30",
-  },
-  {
-    id: 2,
-    title: "Khủng hoảng nợ dưới chuẩn 2008 & Sự sụp đổ của Lehman Brothers",
-    topic: "Kinh tế thực & Kinh tế ảo",
-    description:
-      "Trước năm 2008, các ngân hàng đầu tư tại Mỹ đã biến các khoản nợ thế chấp bất động sản có nguy cơ nợ xấu cao (dưới chuẩn) thành các sản phẩm chứng khoán hóa phức tạp (CDO, CDS) để mua bán kiếm lời. Dòng vốn đầu cơ chảy ồ ạt vào thị trường tài chính khiến giá trị giao dịch ảo lớn gấp hàng trăm lần giá trị thực tế của bất động sản thế chấp. Khi thị trường nhà đất Mỹ đóng băng, các công ty tài chính mất khả năng thanh toán, dẫn đến việc ngân hàng Lehman Brothers phá sản và kích hoạt cuộc khủng hoảng tài chính toàn cầu.",
-    analysis:
-      "Đây là ví dụ điển hình về sự tách rời nghiêm trọng giữa Kinh tế thực và Kinh tế ảo. Dòng vốn tài chính vận động thuần túy theo công thức đầu cơ T - T' (tiền tự sinh ra tiền mà không qua lưu thông hàng hóa vật chất H). Sự tăng trưởng quá nóng của các công cụ tài chính ảo tạo ra bong bóng tài sản khổng lồ, khi bị vỡ sẽ hút cạn dòng tiền của khu vực sản xuất thực, gây suy thoái kinh tế diện rộng.",
-    reflectionQuestion:
-      "Tại sao đầu cơ tài chính thuần túy (T - T') lại có xu hướng lấn át đầu tư sản xuất thực tế?",
-    reflectionAnswer:
-      "Đầu cơ tài chính cho phép thu hồi vốn cực kỳ nhanh chóng và có tỷ suất lợi nhuận ngắn hạn siêu ngạch so với việc đầu tư vào sản xuất (kinh tế thực) vốn bị giới hạn bởi các điều kiện vật lý, chu kỳ kỹ thuật và năng suất lao động thực tế. Tuy nhiên, nếu không có kinh tế thực làm nền tảng sinh ra giá trị thặng dư gốc, nền kinh tế ảo sẽ sụp đổ như một lâu đài trên cát.",
-    color: "from-amber-500/20 to-rose-500/20 border-rose-500/30",
-  },
-  {
-    id: 3,
-    title: "Chính phủ Mỹ bơm 700 tỷ USD cứu trợ các tập đoàn tài chính tư nhân",
-    topic: "Độc quyền nhà nước tư sản",
-    description:
-      "Trong cuộc khủng hoảng tài chính 2008, chính phủ Mỹ đã thông qua chương trình cứu trợ TARP trị giá 700 tỷ USD tiền thuế của người dân để trực tiếp mua lại các khoản nợ xấu và bơm vốn giải cứu các ngân hàng thương mại, tập đoàn tài chính độc quyền khổng lồ như AIG, Citigroup vì lý do các tổ chức này 'quá lớn để sụp đổ' (Too Big to Fail) và nếu sụp đổ sẽ phá hủy nền kinh tế.",
-    analysis:
-      "Hành động này phản ánh bản chất của độc quyền nhà nước trong chủ nghĩa tư bản độc quyền hiện đại. Nhà nước tư sản không còn đứng ngoài thị trường mà trở thành một thực thể can thiệp trực tiếp để cứu vãn hệ thống. Nhà nước đã sử dụng nguồn ngân sách quốc gia (sức mạnh nhà nước) để bảo lãnh và gánh chịu rủi ro thay cho các tập đoàn độc quyền tư nhân lớn, kết hợp sức mạnh độc quyền tư nhân với sức mạnh chính trị nhà nước để bảo vệ lợi ích của giai cấp tư sản độc quyền.",
-    reflectionQuestion:
-      "Tại sao dư luận xã hội thường chỉ trích các gói giải cứu kinh tế của nhà nước tư sản?",
-    reflectionAnswer:
-      "Vì các gói giải cứu này hoạt động theo cơ chế 'xã hội hóa thua lỗ và tư nhân hóa lợi nhuận'. Tiền thuế của người dân nghèo được dùng để bù đắp các khoản lỗ do các tài phiệt đầu cơ gây ra, trong khi ban giám đốc các tập đoàn vẫn nhận lương thưởng hàng triệu USD, làm gia tăng sâu sắc thêm bất bình đẳng xã hội.",
-    color: "from-emerald-500/20 to-teal-500/20 border-teal-500/30",
-  },
-  {
-    id: 4,
-    title: "Apple Inc. và mô hình chuỗi cung ứng toàn cầu toàn cầu hóa",
-    topic: "Tập đoàn xuyên quốc gia (TNCs)",
-    description:
-      "Tập đoàn công nghệ Apple Inc. (Mỹ) tập trung nắm giữ các khâu có giá trị gia tăng cao nhất như Nghiên cứu phát triển (R&D), Thiết kế, Phát triển hệ điều hành và Tiếp thị thương mại tại Mỹ. Toàn bộ khâu sản xuất linh kiện và lắp ráp thành phẩm phức tạp được thuê ngoài (outsourced) cho các nhà máy gia công của Foxconn, Pegatron tại Trung Quốc, Ấn Độ, Việt Nam. Phần lớn giá trị thặng dư khổng lồ từ mỗi chiếc iPhone bán ra thuộc về Apple và các quỹ tài chính Mỹ, trong khi các nước gia công chỉ nhận được một tỷ lệ giá trị cực kỳ nhỏ chủ yếu là tiền công lao động rẻ.",
-    analysis:
-      "Đây là biểu hiện của các Tập đoàn xuyên quốc gia chi phối chuỗi giá trị toàn cầu. Tư bản độc quyền thông qua việc kiểm soát sở hữu trí tuệ và quyền phân phối tài chính toàn cầu đã tạo ra sự phân công lao động quốc tế bất bình đẳng. Họ bóc lột sức lao động và tài nguyên của các nước đang phát triển để tích lũy tư bản về các nước trung tâm phát triển.",
-    reflectionQuestion:
-      "Các nước đang gia công như Việt Nam có giải pháp nào để thoát khỏi bẫy giá trị gia tăng thấp?",
-    reflectionAnswer:
-      "Việt Nam cần đẩy mạnh chuyển dịch cơ cấu từ lắp ráp gia công đơn giản sang tự chủ công nghệ, nâng cao hàm lượng khoa học công nghệ quốc gia, đầu tư mạnh mẽ vào giáo dục chất lượng cao, thúc đẩy R&D và xây dựng các thương hiệu sản phẩm nội địa mạnh để có tiếng nói lớn hơn trong chuỗi cung ứng toàn cầu.",
-    color: "from-purple-500/20 to-pink-500/20 border-pink-500/30",
-  },
-];
+// Real-world political economy situations data removed (unused in App)
 
 // Theory content: sự tách rời giữa Kinh tế thực và Kinh tế ảo
 const separationReasons = [
@@ -155,13 +94,9 @@ export default function App() {
   const [wrongAnswers, setWrongAnswers] = useState<number[]>([]);
   const [showError, setShowError] = useState(false);
   const [isPrizeRevealed, setIsPrizeRevealed] = useState(false);
-  const [activeTab, setActiveTab] = useState<"GAME" | "SITUATIONS" | "THEORY">(
-    "GAME",
-  );
-  const [expandedSituation, setExpandedSituation] = useState<number | null>(
-    null,
-  );
-  const [showAnalysis, setShowAnalysis] = useState<Record<number, boolean>>({});
+  const [activeTab, setActiveTab] = useState<
+    "GAME" | "SITUATIONS" | "THEORY" | "REQUIREMENT"
+  >("GAME");
 
   // Initialize/Reset Game
   const initGame = () => {
@@ -260,7 +195,7 @@ export default function App() {
     setTimeout(() => {
       setActiveCardId(cardId);
       setSelectedOption(null);
-      setIsChecked(false);
+      setSelectedOption(null);
       setIsCorrect(false);
       setWrongAnswers([]);
       setShowError(false);
@@ -282,7 +217,6 @@ export default function App() {
     const isAnswerCorrect = selectedOption === activeCard.question.answer;
 
     if (isAnswerCorrect) {
-      setIsChecked(true);
       setIsCorrect(true);
       setShowError(false);
       setIsPrizeRevealed(false);
@@ -399,6 +333,17 @@ export default function App() {
             >
               <BookOpen className="h-4 w-4" />
               <span>Tình huống</span>
+            </button>
+            <button
+              onClick={() => setActiveTab("REQUIREMENT")}
+              className={`flex items-center gap-2 px-4 py-1.5 rounded-lg text-xs sm:text-sm font-bold transition duration-200 cursor-pointer ${
+                activeTab === "REQUIREMENT"
+                  ? "bg-indigo-600 text-white shadow-md"
+                  : "text-slate-500 hover:text-slate-700 hover:bg-slate-200/40"
+              }`}
+            >
+              <Network className="h-4 w-4" />
+              <span>Yêu cầu</span>
             </button>
             <button
               onClick={() => setActiveTab("THEORY")}
@@ -612,7 +557,7 @@ export default function App() {
           </>
         ) : activeTab === "SITUATIONS" ? (
           <MonopolyGame />
-        ) : (
+        ) : activeTab === "THEORY" ? (
           /* THEORY TAB CONTENT — Sự tách rời Kinh tế thực & Kinh tế ảo */
           <div className="space-y-8 animate-fade-in pb-4">
             {/* Intro Panel */}
@@ -760,7 +705,9 @@ export default function App() {
               </div>
             </section>
           </div>
-        )}
+        ) : activeTab === "REQUIREMENT" ? (
+          <RequirementPage />
+        ) : null}
       </main>
 
       {/* QUIZ POPUP MODAL */}
